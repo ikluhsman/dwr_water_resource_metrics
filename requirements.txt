@@ -1,0 +1,5 @@
+Flask
+prometheus_client
+PyYAML
+requests
+urllib3

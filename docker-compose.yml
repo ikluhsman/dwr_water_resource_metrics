@@ -1,0 +1,11 @@
+dwr_exporter:
+    build: ./
+    image: ikluhsman/dwr_exporter:latest
+    container_name: dwr_exporter
+    ports:
+      - "${HOST_IP}:8001:8001"
+    env_file:
+      - .env
+    restart: unless-stopped
+    volumes:
+      - ./dwr_gauges.yaml:/config/dwr_gauges.yaml
