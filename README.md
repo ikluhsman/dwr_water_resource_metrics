@@ -63,7 +63,6 @@ Configuration can be done using environment variables in a .env file, ensure you
 | Variable | Default Value | Description |
 | :--- | :--- | :--- |
 | DWR_API_KEY | xxx | Request an API key from the [REST Web services page](https://dwr.state.co.us/rest/get/help#Datasets&#TelemetryStationsController&#gettingstarted&#jsonxml). |
-| HOST_IP | 0.0.0.0 | IP for flask app to listen on. |
 | DWR_MAX_WORKERS | 10 | How many gauges/threads to query at a time. |
 
 ### Gauges File dwr_gauges.yaml
