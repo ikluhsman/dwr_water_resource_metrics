@@ -4,7 +4,7 @@ Python flask app that exposes Prometheus-style time-series metrics from Colorado
 
 ## Installation
 
-These Prometheus exporters are intended to run in Docker, however technically they can run under any Python 3 distribution.
+This Prometheus exporter is intended to run in Docker, however technically they can run under any Python 3 distribution.
 
 ### Dependencies
 
